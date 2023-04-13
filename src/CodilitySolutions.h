@@ -1,0 +1,17 @@
+#pragma once
+
+#include "AbsDistinct.hpp"
+#include "FrogJmp.hpp"
+#include "PermCheck.hpp"
+#include "BinaryGap.hpp"
+#include "FrogRiverOne.hpp"
+#include "PermMissingElem.hpp"
+#include "Brackets.hpp"
+#include "MaxCounters.hpp"
+#include "TapeEquilibrium.hpp"
+#include "CountDiv.hpp"
+#include "OddOccurrencesInArray.hpp"
+#include "Distinct.hpp"
+#include "PassingCars.hpp"
+#include "MissingInteger.hpp"
+#include "MaxProductOfThree.hpp"
