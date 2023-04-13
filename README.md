@@ -1,6 +1,6 @@
 # CodilityPlusPlus
 
-CodilityPlusPlus is a C++ solution repository for all Codility lessons. It provides C++ solutions for various Codility lessons, which can be used as a reference or starting point for solving Codility programming tasks.
+CodilityPlusPlus is a C++ solution repository for all Codility lessons. It provides C++ solutions for various Codility lessons, which can be used as a reference or starting point for solving Codility programming tasks. All solutions aim for 100% compliton. Codility does not provide clear way to browse previous submitions so this repository was created to easliy view solutions.
 
 ## Installation Requirements
 
@@ -54,3 +54,6 @@ make
 
 Replace `<test_suite_name>` with the name of the test suite you want to run, e.g., `AbsDistinctSuite`, `BinaryGapSuite`, `BracketsSuite`, etc.
 
+### Tests
+
+Solutions are at least tested for example cases provided by codility lessons. These tests are called `ExampleOne`, `ExampleTwo`, etc. Some solutions contain more custom tests.
