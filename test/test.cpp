@@ -100,6 +100,14 @@ TEST(BracketsSuite, ExampleTwo) {
 	  EXPECT_EQ(brackets::solution(s),0);
 }
 
+TEST(GenomicRangeQuerySuite, ExampleOne) {
+	string S = "CAGCCTA";
+	  vector<int> P = {2,5,0};
+	  vector<int> Q = {4,5,6};
+	  vector<int> expected = {2,4,1};
+	  EXPECT_EQ(genomicRangeQuery::solution(S,P,Q),expected);
+}
+
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv); // Initialize GTest framework
     return RUN_ALL_TESTS(); // Run all tests and return the result

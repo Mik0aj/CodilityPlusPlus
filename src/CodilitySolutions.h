@@ -15,3 +15,4 @@
 #include "PassingCars.hpp"
 #include "MissingInteger.hpp"
 #include "MaxProductOfThree.hpp"
+#include "GenomicRangeQuery.hpp"
