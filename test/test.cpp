@@ -108,6 +108,11 @@ TEST(GenomicRangeQuerySuite, ExampleOne) {
 	  EXPECT_EQ(genomicRangeQuery::solution(S,P,Q),expected);
 }
 
+TEST(MinAvgTwoSlice, ExampleOne) {
+	  vector<int> A = {4,2,2,5,1,5,8};
+	  EXPECT_EQ(minAvgTwoSlice::solution(A),1);
+}
+
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv); // Initialize GTest framework
     return RUN_ALL_TESTS(); // Run all tests and return the result

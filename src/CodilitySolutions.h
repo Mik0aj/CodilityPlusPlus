@@ -16,3 +16,4 @@
 #include "MissingInteger.hpp"
 #include "MaxProductOfThree.hpp"
 #include "GenomicRangeQuery.hpp"
+#include "MinAvgTwoSlice.hpp"
