@@ -57,3 +57,7 @@ Replace `<test_suite_name>` with the name of the test suite you want to run, e.g
 ### Tests
 
 Solutions are at least tested for example cases provided by codility lessons. These tests are called `ExampleOne`, `ExampleTwo`, etc. Some solutions contain more custom tests.
+
+## Helping scripts
+
+The project contains helper script named `AddNewProblem.sh`. This script creates new source files in src and test files. It also updates test.cpp to include new test suites.
