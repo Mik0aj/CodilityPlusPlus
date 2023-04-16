@@ -1,5 +1,6 @@
 #pragma once
 
+#include "../src/CodilitySolutions.hpp"
 #include "AbsDistinct.hpp"
 #include "FrogJmp.hpp"
 #include "PermCheck.hpp"

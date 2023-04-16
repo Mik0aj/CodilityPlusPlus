@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Get input string
-read -p "Enter a string: " input_string
+# Get input string from command line argument
+input_string="$1"
 
 # Create header file in ./src directory
 src_file="./src/${input_string}.hpp"
@@ -25,4 +25,3 @@ if ! grep -q "#include \"${input_string}Suite.hpp\"" "$test_cpp_file"; then
     sed -i "2s@^@#include \"${input_string}Suite.hpp\"\n@" "$test_cpp_file"
     echo "    // TODO: Add test suite initialization" >> "$test_cpp_file"
 fi
-
